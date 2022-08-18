@@ -11,7 +11,12 @@
     <PackageReference Include="MvvmCross" Version="8.0.2" />
     <PackageReference Include="MvvmCross.Platforms.Wpf" Version="8.0.2" />
     <PackageReference Include="Serilog" Version="2.11.0" />
+    <PackageReference Include="Serilog.Extensions.Logging" Version="3.1.0" />
     <PackageReference Include="Serilog.Sinks.Console" Version="4.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TipCalc.Core\TipCalc.Core.csproj" />
   </ItemGroup>
 
 </Project>
